@@ -6,4 +6,4 @@
 
 # npm install --save-dev terser
 
-# npm run dev
+# npm run devs
