@@ -25,6 +25,11 @@ export const heroData = {
             url: "https://linkedin.com/in/muslumhanerık",
             icon: "Lindedin"
 
+        },
+        {
+            name: "Email",
+            url: "mailto:mslmhanerol@gmail.com",
+            icon: "Mail"
         }
     ]
 }
