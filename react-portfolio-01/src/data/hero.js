@@ -31,5 +31,17 @@ export const heroData = {
             url: "mailto:mslmhanerol@gmail.com",
             icon: "Mail"
         }
+    ],
+    ctaButtons: [
+        {
+            text: "View My Work",
+            href: "#projects",
+            variant: "primary"
+        },
+        {
+            text: "Lets's Connect",
+            href: "#contact",
+            variant: "secondary"
+        }
     ]
 }
