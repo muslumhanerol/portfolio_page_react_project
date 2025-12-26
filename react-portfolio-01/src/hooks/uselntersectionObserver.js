@@ -26,4 +26,4 @@ export const useIntersectionObserver = () => {
     }, [hasAnimated]);
 
     return hasAnimated;
-}
+};
