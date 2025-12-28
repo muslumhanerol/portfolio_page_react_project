@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 
 export const useScrollToTop = () => {
-    const [scrollPosition, setScrollPosition] = useState(0);
+    const [showScrollTop, setShowScrollTop] = useState(false);
 
     useEffect(() => {
+        // Add smooth scrolling to html element
+        docum
         const handleScroll = () => {
             setScrollPosition(window.scrollY);
         };
