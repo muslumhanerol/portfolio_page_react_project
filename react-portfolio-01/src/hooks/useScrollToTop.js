@@ -5,21 +5,9 @@ export const useScrollToTop = () => {
 
     useEffect(() => {
         // Add smooth scrolling to html element
-        docum
-        const handleScroll = () => {
-            setScrollPosition(window.scrollY);
-        };
+        document.documentElement.style.scrollBehavior = "smooth";
 
-        window.addEventListener("scroll", handleScroll);
 
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+    })
 
-    useEffect(() => {
-        if (scrollPosition > 100) {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        }
-    }, [scrollPosition]);
 };
