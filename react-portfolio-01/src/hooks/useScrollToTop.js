@@ -15,11 +15,10 @@ export const useScrollToTop = () => {
 
         return () => {
             window.removeEventListener("scroll", handleScroll);
-
+            // Clean up smooth scroll on unmount
+            document.documentElement.style.scrollBehavior = "auto";
         };
+    }, []);
 
-
-
-    })
-
+    return showScrollTop;
 };
