@@ -11,6 +11,13 @@ export const useScrollToTop = () => {
             setShowScrollTop(window.scrollY > 400);
         };
 
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+
+        };
+
 
 
     })
