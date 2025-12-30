@@ -8,11 +8,11 @@ export const useScrollToTop = () => {
         document.documentElement.style.scrollBehavior = "smooth";
 
         const handleScroll = () => {
-            const handleScroll = () => {
-                setShowScrollTop(window.scrollY > 400);
-            }
+            setShowScrollTop(window.scrollY > 400);
+        };
 
 
-        })
+
+    })
 
 };
