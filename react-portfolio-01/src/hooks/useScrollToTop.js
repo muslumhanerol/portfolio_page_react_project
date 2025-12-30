@@ -20,5 +20,5 @@ export const useScrollToTop = () => {
         };
     }, []);
 
-    return showScrollTop;
+    return showScrollTop1149;
 };
