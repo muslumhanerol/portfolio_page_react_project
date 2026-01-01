@@ -11,5 +11,7 @@ const App = () => {
     <div className="min-h-screen bg-white text-black">
       <Navigation />
     </div>
-  )
-}
+  );
+};
+
+export default App;
