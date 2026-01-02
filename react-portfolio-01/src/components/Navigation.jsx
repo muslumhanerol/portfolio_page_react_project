@@ -13,6 +13,20 @@ const Navigation = () => {
         setIsMobilMenuOpen(false);
     }
 
+    const scrollToSection = (href) => {
+        const element = document.querySelector(href);
+        if (element) {
+            const navHeight = 60;
+            const elementPosition = element.offsetTop - navHeight;
+            window.scrollTo({
+                top: elementPosition,
+                behavior: "smooth"
+            });
+        }
+        closeMobileMenu(); //Close mobile menu after clicking.
+    }
+
+
 }
 
 export default Navigation;
