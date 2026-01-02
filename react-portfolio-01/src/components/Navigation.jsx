@@ -9,6 +9,10 @@ const Navigation = () => {
         setIsMobilMenuOpen(!IsMobilMenuOpen);
     };
 
+    const closeMobileMenu = () => {
+        setIsMobilMenuOpen(false);
+    }
+
 }
 
 export default Navigation;
