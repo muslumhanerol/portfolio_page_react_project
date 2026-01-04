@@ -32,9 +32,16 @@ const Navigation = () => {
         };
 
         window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener
+            ("scroll", handleScroll);
 
-    })
+    }, []);
 
+    const navItems = [
+        { href: "#about", label: "About" },
+        { href: "#projects", label: "Projects" },
+        { href: "#contact", label: "Contact" },
+    ]
 }
 
 export default Navigation;
