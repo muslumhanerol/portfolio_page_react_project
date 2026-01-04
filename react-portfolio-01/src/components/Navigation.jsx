@@ -28,11 +28,12 @@ const Navigation = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 0);
+            setIsScrolled(window.scrollY > 50);
         };
 
-    }
-    )
+        window.addEventListener("scroll", handleScroll);
+
+    })
 
 }
 
