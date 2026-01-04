@@ -24,8 +24,15 @@ const Navigation = () => {
             });
         }
         closeMobileMenu(); //Close mobile menu after clicking.
-    }
+    };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 0);
+        };
+
+    }
+    )
 
 }
 
