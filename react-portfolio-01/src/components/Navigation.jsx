@@ -49,6 +49,7 @@ const Navigation = () => {
             <div className="max-w-6xl mx-auto px-6 py-4">
                 <div className="flex justify-between items-center">
                     <div className={`text-xl font-bold transition-colors cursor-pointer hover:opacity-80 ${İsScrolled ? 'text-black' : 'text-black'}`} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                        Portfolio
 
                     </div>
                 </div>
