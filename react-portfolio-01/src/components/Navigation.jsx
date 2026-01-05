@@ -44,11 +44,9 @@ const Navigation = () => {
         { href: "#contact", label: "Contact" },
     ];
 
-    return (
-        <nav className={'fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white /95 backdrop - blur - md shodow - sm' :}'
-}></nav >
 
-    )
+
+
 
 }
 
