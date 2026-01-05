@@ -48,7 +48,7 @@ const Navigation = () => {
         <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${İsScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
             <div className="max-w-6xl mx-auto px-6 py-4">
                 <div className="flex justify-between items-center">
-                    <div className={`text-xl font-bold transition-colors cursor-pointer hover:opacity-80 ${İsScrolled ? 'text-black' : 'text-black'}`} onClick={() => scrollToSection('#top')}>
+                    <div className={`text-xl font-bold transition-colors cursor-pointer hover:opacity-80 ${İsScrolled ? 'text-black' : 'text-black'}`} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
 
                     </div>
                 </div>
