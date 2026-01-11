@@ -54,7 +54,7 @@ const Navigation = () => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-8">{navItems.map((item) => (
-                        <a key={item.href} href={item.href} className={`transition-colors ${İsScrolled ? 'text-gray-60021.02'}`}></a>
+                        <a key={item.href} href={item.href} className={`transition-colors ${İsScrolled ? 'text-gray-600 hover:text-black' : 'text-black hover:text-gray-700'}`}>{item.label}</a>
                     ))}</div>
 
 
