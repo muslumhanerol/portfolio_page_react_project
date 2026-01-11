@@ -57,7 +57,7 @@ const Navigation = () => {
                         <a key={item.href} href={item.href} className={`transition-colors ${İsScrolled ? 'text-gray-600 hover:text-black' : 'text-black hover:text-gray-700'}`}>{item.label}</a>
                         {(e) =>{
                             e.preventDefault();
-                        scrollToSection(item.href);
+                        scrollToSection(item.href21);
                         }}
                     ))}</div>
 
