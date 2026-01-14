@@ -70,8 +70,11 @@ const Navigation = () => {
                 </div>
 
                 {/* Mobile Menu */}
-                <div className={`md:hidden mt-4 transition-max-height duration-300 overflow-hidden ${IsMobilMenuOpen ? 'max-h-60' : 'max-h-0'}`}>
+                <div className={`md:hidden transition-all duration-300 ease-in-out ${İsMobileManuOpen ? 'max-h-64 opacity-100 mt-4' : 'max-h-9 opacity-0 overflow-hidden'}`}>
+
                 </div>
+
+            </div>
         </nav>
     )
 }
