@@ -64,8 +64,8 @@ const Navigation = () => {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <button onClick={toggleMobileMenu} className={`p-2 rounded-md focus:outline-none transition-colors ${isScrolled ? 'text-gray-600 hover:text-black' : 'text-gray-700 hover:text-black'}`}>
-                        {IsMobilMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                    <button onClick={toggleMobileMenu} className={`md:hidden p-2 transition-colors cursor-pointer ${isScrolled ? 'text-gray-600 hover:text-black' : 'text-gray-700 hover:text-black'}`}>
+                        {IsMobilMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
                     </button>
 
 
