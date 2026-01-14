@@ -71,9 +71,18 @@ const Navigation = () => {
 
                 {/* Mobile Menu */}
                 <div className={`md:hidden transition-all duration-300 ease-in-out ${İsMobileManuOpen ? 'max-h-64 opacity-100 mt-4' : 'max-h-9 opacity-0 overflow-hidden'}`}>
+                    <div className="bg-white border border-gray-100 rounded-lg p-4 shadow-y-4 space-y-4">
+                        {navItems.map((item) => (
+                            <a key={item.href} href={item.href} onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection(item.href);
+                            }} className="block text-gray-600 hover:text-black transition-colors py-2">
+                                {item.label}
+                            </a>
 
+                        ))}
+                    </div>
                 </div>
-
             </div>
         </nav>
     )
