@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-white text-black">
       <Navigation />
-      <Hero />
+      <Hero hasAnimated={hasAnimated} />
     </div>
   );
 };
