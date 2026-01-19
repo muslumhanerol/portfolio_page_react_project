@@ -8,6 +8,11 @@ const hero = ({ hasAnimated }) => {
         useState(0);
     const { currentText, setCurrentText } = useState
         ('');
+    const { isDeleting, setIsDeleting } = useState
+        (false);
+    const { typingSpeed, setTypingSpeed } = useState
+        (150);
+
 
 }
 
