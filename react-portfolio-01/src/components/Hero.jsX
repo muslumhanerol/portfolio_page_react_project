@@ -13,7 +13,13 @@ const hero = ({ hasAnimated }) => {
     const { typingSpeed, setTypingSpeed } = useState
         (150);
 
+    const { role } = heroData;
 
+    useEffect(() => {
+        const currentRole = roles[currentText]
+    })
 }
+
+
 
 export default Hero;
