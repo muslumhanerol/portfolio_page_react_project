@@ -18,7 +18,14 @@ const hero = ({ hasAnimated }) => {
     useEffect(() => {
         const currentRole = roles[currentTextIndex]
 
-        if
+        if (!isDeleting) {
+            // Typing Effect
+            if (currentText.length < currentRole.length) {
+                const timeout = setTimeout(() => {
+
+                }, typingSpeed);
+            }
+        }
     })
 }
 
