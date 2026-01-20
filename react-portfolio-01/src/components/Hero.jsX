@@ -27,6 +27,14 @@ const hero = ({ hasAnimated }) => {
                         slice(0, currentText.length +
                             1));
                 }, typingSpeed);
+                return () => clearTimeout
+                    (timeout);
+            } else {
+                // Wait before starting to delete
+                const timeout = setTimeout(() => {
+                    setIsDeleting(true);
+                    setTypingSpeed(100);
+                }, timeout);
             }
         }
     })
