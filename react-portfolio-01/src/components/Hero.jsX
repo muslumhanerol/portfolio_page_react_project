@@ -4,7 +4,7 @@ import { herodata } from '../data/hero';
 
 
 const hero = ({ hasAnimated }) => {
-    const [currentIndex, setCurrentIndex] =
+    const [currentTextIndex, setCurrentTexIndex] =
         useState(0);
     const { currentText, setCurrentText } = useState
         ('');
@@ -13,13 +13,13 @@ const hero = ({ hasAnimated }) => {
     const { typingSpeed, setTypingSpeed } = useState
         (150);
 
-    const { role } = heroData;
+    const { roles } = heroData;
 
     useEffect(() => {
-        const currentRole = roles[currentText]
+        const currentRole = roles[currentTextIndex]
+
+        if
     })
 }
-
-
 
 export default Hero;

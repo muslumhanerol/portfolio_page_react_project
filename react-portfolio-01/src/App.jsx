@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "./components/Navigation";
 import { useIntersectionObserver } from "./hooks/useIntersectionObserver.js";
 import { useScrollToTop } from "./hooks/useScrollToTop";
-import Hero from "./components/Hero.jsX";
+import Hero from "./components/Hero";
 
 const App = () => {
   const hasAnimated = useIntersectionObserver();
