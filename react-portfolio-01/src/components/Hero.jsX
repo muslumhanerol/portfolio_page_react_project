@@ -23,6 +23,9 @@ const hero = ({ hasAnimated }) => {
             if (currentText.length < currentRole.length) {
                 const timeout = setTimeout(() => {
 
+                    setCurrentText(currentRole.
+                        slice(0, currentText.length +
+                            1));
                 }, typingSpeed);
             }
         }
