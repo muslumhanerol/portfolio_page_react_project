@@ -38,6 +38,18 @@ const hero = ({ hasAnimated }) => {
                 return () => clearTimeout
                     (timeout);
             }
+
+        } else {
+            // Deleting Effect
+            if (currentText.length > 0) {
+                const timeout = setTimeout(() => {
+                    setCurrentText(currentText.
+                        slice(0, currentText.length -
+                            1));
+                }, typingSpeed);
+                return () => clearTimeout
+                    (timeout);
+            }
         }
     })
 }
