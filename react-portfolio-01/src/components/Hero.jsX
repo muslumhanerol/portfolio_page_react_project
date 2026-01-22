@@ -49,9 +49,22 @@ const hero = ({ hasAnimated }) => {
                 }, typingSpeed);
                 return () => clearTimeout
                     (timeout);
+            } else {
+                // Move to next word
+                setIsDeleting(false);
+                setCurrentTexIndex((prev) =>
+                    (prev + 1) % roles.length);
+                setTypingSpeed(150);
             }
         }
-    })
+    }, [currentText, currentTextIndex,
+        isDeleting, typingSpeed, roles]);
+
+    const scrollToAbout = () => {
+        document.getElementById('about').scrollIntoView({
+            behavior: 'smooth'
+        });
+    };
 }
 
 export default Hero;
