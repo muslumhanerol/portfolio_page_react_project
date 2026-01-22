@@ -34,7 +34,9 @@ const hero = ({ hasAnimated }) => {
                 const timeout = setTimeout(() => {
                     setIsDeleting(true);
                     setTypingSpeed(100);
-                }, timeout);
+                }, 2000);
+                return () => clearTimeout
+                    (timeout);
             }
         }
     })
