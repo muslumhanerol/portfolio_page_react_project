@@ -61,10 +61,13 @@ const hero = ({ hasAnimated }) => {
         isDeleting, typingSpeed, roles]);
 
     const scrollToAbout = () => {
-        document.getElementById('about').scrollIntoView({
-            behavior: 'smooth'
-        });
+        document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+
     };
+
+    return (
+        
+    )
 }
 
 export default Hero;
