@@ -66,7 +66,9 @@ const hero = ({ hasAnimated }) => {
     };
 
     return (
-        <section className='relative h-screen flex item-center justify-centernoverflow-hidden bg-gradient-to-br from-white via-gray-50'></section>
+        <section className='relative h-screen flex item-center justify-centernoverflow-hidden bg-gradient-to-br from-white via-gray-50 to-gray-100 pt-20'>
+            {/* Background Element32.52 */}
+        </section>
     )
 
 
