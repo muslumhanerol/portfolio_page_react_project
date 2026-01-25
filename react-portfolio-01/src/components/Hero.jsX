@@ -66,8 +66,10 @@ const hero = ({ hasAnimated }) => {
     };
 
     return (
-        
+        <section className='relative h-screen flex item-center justify-centernoverflow-hidden bg-gradient-to-br from-white via-gray-50'></section>
     )
+
+
 }
 
 export default Hero;
