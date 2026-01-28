@@ -68,8 +68,12 @@ const hero = ({ hasAnimated }) => {
     return (
         <section className='relative h-screen flex item-center justify-centernoverflow-hidden bg-gradient-to-br from-white via-gray-50 to-gray-100 pt-20'>
             {/* Background Element */}
-            <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-50 to-purple-50 opacity-30 animate-fadeIn'></div>
-        </section>
+            <div className='absolute inset-0 overflow-hidden'>
+                <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full opacity-10 blur-3xl animate-pulse"></div>
+
+            </div>
+        </div>
+        </section >
     )
 
 
