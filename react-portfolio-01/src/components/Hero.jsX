@@ -70,9 +70,7 @@ const hero = ({ hasAnimated }) => {
             {/* Background Element */}
             <div className='absolute inset-0 overflow-hidden'>
                 <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full opacity-10 blur-3xl animate-pulse"></div>
-
             </div>
-        </div>
         </section >
     )
 
