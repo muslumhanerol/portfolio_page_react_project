@@ -71,7 +71,8 @@ const hero = ({ hasAnimated }) => {
             <div className='absolute inset-0 overflow-hidden'>
                 <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full opacity-10 blur-3xl animate-pulse"></div>
                 <div className='absolute-bottom-40 -left-48 w-80 bg-gradient-to-br from-green-400 to-blue-600 rounded-full opacity-10 blur-3xl animate-pulse'></div>
-                <div className='absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-green-400'></div>
+                <div className='absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-green-400 to-blue-600 rounded-full opacity-10 blur-3xl animate-pulse'></div>
+
             </div>
         </section>
     )
