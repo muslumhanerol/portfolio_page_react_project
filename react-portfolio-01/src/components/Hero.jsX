@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { AArrowDown, Github, Linkedin, Mail } from 'lucide-react';
-import { herodata } from '../data/hero';
+import { heroData } from '../data/hero';
 
 
-const hero = ({ hasAnimated }) => {
+const Hero = ({ hasAnimated }) => {
     const [currentTextIndex, setCurrentTexIndex] =
         useState(0);
     const { currentText, setCurrentText } = useState
@@ -16,7 +16,8 @@ const hero = ({ hasAnimated }) => {
     const { roles } = heroData;
 
     useEffect(() => {
-        const currentRole = roles[currentTextIndex]
+        const currentRole = roles
+        [currentTextIndex];
 
         if (!isDeleting) {
             // Typing Effect
