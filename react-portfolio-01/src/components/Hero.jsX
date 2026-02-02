@@ -76,10 +76,11 @@ const Hero = ({ hasAnimated }) => {
                 <div className='absolute top-1/2 left-1/2 transform-translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-pink-400 to-orange-600 rounded-full opacity-5 blur-3xl animate-pulse delay-500'></div>
 
             </div>
+
+            {/* Grid Pattern */}
+            <div className='absolute inset-0 bg-[linear-gradient(rgba(0,0,0,02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,02)_1px,transparent_1px)] bg-[size:50px_50px]'></div>
         </section>
     )
-
-
 }
 
 export default Hero;
