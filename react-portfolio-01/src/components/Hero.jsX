@@ -72,7 +72,7 @@ const hero = ({ hasAnimated }) => {
                 <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full opacity-10 blur-3xl animate-pulse"></div>
                 <div className='absolute-bottom-40 -left-48 w-80 bg-gradient-to-br from-green-400 to-blue-600 rounded-full opacity-10 blur-3xl animate-pulse'></div>
                 <div className='absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-green-400 to-blue-600 rounded-full opacity-10 blur-3xl animate-pulse delay-1000'></div>
-                <div className='absolute top-1/2 left-1/2 transform-translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-pink-400 tp-orange-600 rounded-full opacity-5 blur-3xl animate-pulse delay-500,3514'></div>
+                <div className='absolute top-1/2 left-1/2 transform-translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-pink-400 to-orange-600 rounded-full opacity-5 blur-3xl animate-pulse delay-500'></div>
 
             </div>
         </section>
