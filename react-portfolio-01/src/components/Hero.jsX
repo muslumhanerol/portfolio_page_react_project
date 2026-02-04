@@ -83,6 +83,9 @@ const Hero = ({ hasAnimated }) => {
             <div class="relative z-10  max-w-6xl mx-auto px-6 text-center h-full flex flex-col justify-center">
                 <div className={`transition-all duration-1000 ${hasAnimated.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 '}`} id="hero">
                     {/* Greeting */}
+                    <div className='mb-4'>
+                        <span className='px-4 py-4 bg-black text-white rounded-full text-sm font-medium animate-fade-in inline-block '></span>
+                    </div>
                 </div>
             </div>
         </section>
