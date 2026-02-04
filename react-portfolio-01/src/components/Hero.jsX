@@ -81,7 +81,9 @@ const Hero = ({ hasAnimated }) => {
             <div className='absolute inset-0 bg-[linear-gradient(rgba(0,0,0,02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,02)_1px,transparent_1px)] bg-[size:50px_50px]'></div>
 
             <div class="relative z-10  max-w-6xl mx-auto px-6 text-center h-full flex flex-col justify-center">
-                <div className={`transition-all duration-1000 ${hasAnimated.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 id="hero"'}`}></div>
+                <div className={`transition-all duration-1000 ${hasAnimated.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 '}`} id="hero">
+                    {/* Greeting */}
+                </div>
             </div>
         </section>
     )
