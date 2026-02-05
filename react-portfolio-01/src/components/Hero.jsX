@@ -88,6 +88,17 @@ const Hero = ({ hasAnimated }) => {
                             {heroData.greeting}
                         </span>
                     </div>
+
+                    {/* Name */}
+                    <h1 className='text-5xl md:text-7xl font-bold mb-4 animate-fade-in'>
+                        {heroData.name}
+                    </h1>
+                    <div className='mb-8'>
+                        <h2 className='text-xl md:text-2xl text-gray-600 animate-fade-in delay-300'>
+                            {currentText}
+                            <span className="ml-1 inline-block w-1 h-8 bg-white animate-pulse"></span>
+                        </h2>
+                    </div>
                 </div>
             </div>
         </section>
