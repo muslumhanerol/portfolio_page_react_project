@@ -84,7 +84,9 @@ const Hero = ({ hasAnimated }) => {
                 <div className={`transition-all duration-1000 ${hasAnimated.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 '}`} id="hero">
                     {/* Greeting */}
                     <div className='mb-4'>
-                        <span className='px-4 py-4 bg-black text-white rounded-full text-sm font-medium animate-fade-in inline-block '></span>
+                        <span className='px-4 py-4 bg-black text-white rounded-full text-sm font-medium animate-fade-in'>
+                            {heroData.greeting}
+                        </span>
                     </div>
                 </div>
             </div>
