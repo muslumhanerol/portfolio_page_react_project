@@ -99,8 +99,10 @@ const Hero = ({ hasAnimated }) => {
                         <h2 className='text-2xl md:text-4xl font-semibold text-gray-700'>
                             I'm a {' '}
                             <span className='relative'>
-                                <span className='text-blue-600 font-bold'>{currentText}</span>
-
+                                <span className='text-blue-600 font-bold'>{currentText}
+                                    <span className='animate-pulse'></span>
+                                </span>
+                                <span className='absolute bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-purple-600'></span>
                             </span>
                         </h2>
                     </div>
