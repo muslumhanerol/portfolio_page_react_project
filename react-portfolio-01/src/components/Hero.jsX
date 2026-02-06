@@ -96,7 +96,13 @@ const Hero = ({ hasAnimated }) => {
 
                     {/* Typewriter Role */}
                     <div className='h-12 md:h-16 mb-6 flex items-center justify-center'>
-                        <h2 className='text-2xl md:text-4xl font-semibold'></h2>
+                        <h2 className='text-2xl md:text-4xl font-semibold text-gray-700'>
+                            I'm a {' '}
+                            <span className='relative'>
+                                <span className='text-blue-600 font-bold'>{currentText}</span>
+
+                            </span>
+                        </h2>
                     </div>
 
                 </div>
