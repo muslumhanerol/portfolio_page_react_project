@@ -93,12 +93,12 @@ const Hero = ({ hasAnimated }) => {
                     <h1 className='text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-black via-gray-800 to-gray-600 bg-clip-text text-transparent animate-fade-in-up'>
                         {heroData.name}
                     </h1>
-                    <div className='mb-8'>
-                        <h2 className='text-xl md:text-2xl text-gray-600 animate-fade-in delay-300'>
-                            {currentText}
-                            <span className="ml-1 inline-block w-1 h-8 bg-white animate-pulse"></span>
-                        </h2>
+
+                    {/* Typewriter Role */}
+                    <div className='h-12 md:h-16 mb-6 flex items-center justify-center'>
+                        <h2 className='text-2xl md:text-4xl font-semibold'></h2>
                     </div>
+
                 </div>
             </div>
         </section>
