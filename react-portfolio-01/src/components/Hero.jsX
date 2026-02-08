@@ -110,7 +110,7 @@ const Hero = ({ hasAnimated }) => {
                     </div>
 
                     {/* Description */}
-                    <p className='text-base md:text-lg text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animated'></p>
+                    <p className='text-base md:text-lg text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animat-fade-in-up delay-200'></p>
 
                 </div>
             </div>
