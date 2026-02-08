@@ -102,10 +102,15 @@ const Hero = ({ hasAnimated }) => {
                                 <span className='text-blue-600 font-bold'>{currentText}
                                     <span className='animate-pulse'></span>
                                 </span>
-                                <span className='absolute bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-purple-600'></span>
+                                <span className='absolute bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-purple-600'>
+
+                                </span>
                             </span>
                         </h2>
                     </div>
+
+                    {/* Description */}
+                    <p className='text-base md:text-lg text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animated'></p>
 
                 </div>
             </div>
