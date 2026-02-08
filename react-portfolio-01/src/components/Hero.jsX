@@ -115,7 +115,7 @@ const Hero = ({ hasAnimated }) => {
                     </p>
 
                     {/* CTA Call to Action Button */}
-                    <div className='flex flex-col sm:flex-row gap-3 justify-center '>
+                    <div className='flex flex-col sm:flex-row gap-3 justify-center mb-8 animate-fade-in-up delay-300'>
                     </div>
                 </div>
         </section>
