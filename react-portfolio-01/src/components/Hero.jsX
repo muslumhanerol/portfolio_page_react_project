@@ -118,13 +118,14 @@ const Hero = ({ hasAnimated }) => {
                     <div className='flex flex-col sm:flex-row gap-3 justify-center mb-8 animate-fade-in-up delay-300'>
                         {heroData.ctaButtons.map
                             ((button, index) => (
-                                <a href{button.link} key={index} className='px-6 py-3 bg-blue-600 text-white rounded-full text-sm font-medium hover:bg-blue-700 transition-colors duration-300'>
-                        ))}
+                                <a key={index} href={button.href} className=""></a>
+                            ))}
 
-                                </div>
+                    </div>
                 </div>
-                </section>
-                )
+            </div>
+        </section>
+    )
 }
 
-                export default Hero;
+export default Hero;
