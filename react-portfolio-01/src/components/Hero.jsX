@@ -124,7 +124,9 @@ const Hero = ({ hasAnimated }) => {
                                             <div className='absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                                             </div>
                                         )}
-                                    <span className='relative z-10'>{button.variant}</span>
+                                    <span className={button.variant === 'primary' ? 'relative z-10' : ''}>
+                                        {button.text}
+                                    </span>
                                 </a>
                             ))}
                     </div>
