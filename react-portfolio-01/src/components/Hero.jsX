@@ -121,10 +121,10 @@ const Hero = ({ hasAnimated }) => {
                                 <a key={index} href={button.href} className={`group relative px-6 py-2.5 rounded-lg transition-all duration-300 font-medium text-sm ${button.variant === 'primary' ? 'bg-black text-white shadow-lg hover:shadow-xl hover:bg-gray-800' : 'border-2 border-black text-black hover:bg-black hover:text-white'}`}>
                                     {button.variant
                                         === "primary" && (
-                                            <div className='absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-
+                                            <div className='absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                                             </div>
                                         )}
+                                    <span className='relative z-10'>{button.variant}</span>
                                 </a>
                             ))}
                     </div>
