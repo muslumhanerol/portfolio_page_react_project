@@ -130,6 +130,15 @@ const Hero = ({ hasAnimated }) => {
                                 </a>
                             ))}
                     </div>
+
+                    {/* Social Links */}
+                    <div className='flex justify-center gap-6 animate-fade-in-up delay-400'>
+                        {heroData.socialLinks.map((link, index) => (
+                            <a key={index} href={link.href} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors duration-300">
+                                {link.icon}
+                            </a>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>
