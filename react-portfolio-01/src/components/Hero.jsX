@@ -118,9 +118,15 @@ const Hero = ({ hasAnimated }) => {
                     <div className='flex flex-col sm:flex-row gap-3 justify-center mb-8 animate-fade-in-up delay-300'>
                         {heroData.ctaButtons.map
                             ((button, index) => (
-                                <a key={index} href={button.href} className={`group relative px-6 py-2.5 rounded-lg transition-all duration-300 font-medium text-sm ${button.variant === 'primary' ? 'bg-black text-white shadow-lg hover:shadow-xl hover:bg-gray-800' : 'border-2 border-black text-black hover:bg-black hover:text-white'}`}></a>
-                            ))}
+                                <a key={index} href={button.href} className={`group relative px-6 py-2.5 rounded-lg transition-all duration-300 font-medium text-sm ${button.variant === 'primary' ? 'bg-black text-white shadow-lg hover:shadow-xl hover:bg-gray-800' : 'border-2 border-black text-black hover:bg-black hover:text-white'}`}>
+                                    {button.variant
+                                        === "primary" && (
+                                            <div className='absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
 
+                                            </div>
+                                        )}
+                                </a>
+                            ))}
                     </div>
                 </div>
             </div>
