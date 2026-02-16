@@ -140,7 +140,7 @@ const Hero = ({ hasAnimated }) => {
                                         social.icon === 'Linkedin' ? Linkedin : Mail;
 
                                 return (
-                                    <a key={index} href={social.href} target="_blank" rel="noopener noreferrer" className='text-gray-600 hover:text-gray-900 transition-colors duration-300'></a>
+                                    <a key={index} href={social.url} className='text-gray-600 hover:text-gray-900 transition-colors duration-300'></a>
                                 )
                             })}
                     </div>
