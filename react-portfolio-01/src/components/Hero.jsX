@@ -133,6 +133,14 @@ const Hero = ({ hasAnimated }) => {
 
                     {/* Social Links */}
                     <div className='flex justify-center space-x-6 mb-8 animate-fade-in-up delay-400'>
+                        {heroData.socialLinks.map
+                            ((social, index) => {
+                                const IconComponent =
+                                    social.icon === 'Github' ? Github :
+                                        social.icon === 'Linkedin' ? Linkedin : Mail;
+
+
+                            })}
 
                     </div>
                 </div>
