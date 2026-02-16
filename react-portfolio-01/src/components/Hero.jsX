@@ -140,10 +140,14 @@ const Hero = ({ hasAnimated }) => {
                                         social.icon === 'Linkedin' ? Linkedin : Mail;
 
                                 return (
-                                    <a key={index} href={social.url} className='ground p-3  bg-white rounded-full shadow-md hover:shadow-lg'></a>
-                                )
+                                    <a key={index} href={social.url} className='ground p-3  bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1'>
+                                        <IconComponent className='w-6 h-6 text-gray-700 group-hover:text-black transition-colors' />
+                                    </a>
+                                );
                             })}
                     </div>
+
+
                 </div>
             </div>
         </section>
