@@ -157,6 +157,9 @@ const Hero = ({ hasAnimated }) => {
                             </div>
                         ))}
                     </div>
+
+                    {/* Scroll Indicator */}
+
                 </div>
             </div>
         </section>
