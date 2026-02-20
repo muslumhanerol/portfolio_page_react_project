@@ -147,7 +147,7 @@ const Hero = ({ hasAnimated }) => {
                             })}
                     </div>
 
-
+                    48.30
                 </div>
             </div>
         </section>
