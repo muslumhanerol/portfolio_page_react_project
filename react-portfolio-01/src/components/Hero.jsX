@@ -149,6 +149,14 @@ const Hero = ({ hasAnimated }) => {
 
                     {/* Stats */}
                     <div className='grid grid-col-3 gap-6 max-w-2xl mx-auto mb-8 animate-fade-in-up delay-500'>
+                        {heroData.stats.map((stat, index) => (
+                            <div key={index} className='text-center'>
+                                <div className='text-2xl font-bold text-gray-800'>
+
+                                </div>
+                            </div>
+                        ))}
+
 
                     </div>
                 </div>
