@@ -162,7 +162,7 @@ const Hero = ({ hasAnimated }) => {
                     <div className='animate-bounce'>
                         <button onClick={scrollToAbout} className='group flex flex-col items-center text-gray-600 hover:text-black transition-colors cursor-pointer'>
                             <span className='text-sm mb-2'>Learn More</span>
-                            <AArrowDown className='w-6 h-6 group-hover:transform group-hover:translate-y-1 transition-transform' />
+                            <AArrowDown className='w-6 h-6 group-hover:transform group-hover:translate-y-1 transition-transform5138' />
                         </button>
                     </div>
                 </div>
