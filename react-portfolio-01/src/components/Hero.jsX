@@ -90,7 +90,7 @@ const Hero = ({ hasAnimated }) => {
                     </div>
 
                     {/* Name */}
-                    <h1 className='text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-black via-gray-800 to-gray-600 bg-clip-text text-transparent animate-fade-in-up'>
+                    <h1 className='text-5xl md:text-7xl leading-tight font-bold mb-4 bg-gradient-to-r from-black via-gray-800 to-gray-600 bg-clip-text text-transparent animate-fade-in-up'>
                         {heroData.name}
                     </h1>
 
