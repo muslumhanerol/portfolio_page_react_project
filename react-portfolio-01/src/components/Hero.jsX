@@ -170,6 +170,7 @@ const Hero = ({ hasAnimated }) => {
 
             {/* Floating Elements */}
             <div className='absolute top-20 left-10 w-4 h-4 bg-blue-400 rounded-full opacity-60 animate-float'></div>
+            <div className='absolute top-40 right-20 w-6 h-6 bg-purple-400 rounded-full opacity-60 animate-float delay-1000'></div>
         </section>
     )
 }
