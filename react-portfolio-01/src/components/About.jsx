@@ -30,6 +30,16 @@ const About = ({ hasAnimated }) => {
             <div className="max-w-6xl mx-auto">
                 <div className={`transition-all duration-1000 delay-200 ${hasAnimated.about ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                     <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
+                    <div className="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <p className="text-lg text-gray-700 mb-6">
+                                I'm a passionate frontend developer with a knack for creating beautiful and functional web applications. With a strong foundation in JavaScript and React, I enjoy turning complex problems into elegant solutions. When I'm not coding, you can find me exploring design trends or contributing to open-source projects.
+                            </p>
+                            <p className="text-lg text-gray-700 mb-6">
+                                I'm a passionate frontend developer with a knack for creating beautiful and functional web applications. With a strong foundation in JavaScript and React, I enjoy turning complex problems into elegant solutions. When I'm not coding, you can find me exploring design trends or contributing to open-source projects.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
