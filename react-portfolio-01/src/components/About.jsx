@@ -38,6 +38,19 @@ const About = ({ hasAnimated }) => {
                             <p className="text-lg text-gray-700 mb-6">
                                 I'm a passionate frontend developer with a knack for creating beautiful and functional web applications. With a strong foundation in JavaScript and React, I enjoy turning complex problems into elegant solutions. When I'm not coding, you can find me exploring design trends or contributing to open-source projects.
                             </p>
+
+                            <div className="flex space-x-4">
+                                <Github
+                                    className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors"
+                                />
+                                <Linkedin
+                                    className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors"
+                                />
+                                <Mail
+                                    className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors"
+                                />
+
+                            </div>
                         </div>
                     </div>
                 </div>
