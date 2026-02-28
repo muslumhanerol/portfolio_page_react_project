@@ -49,8 +49,18 @@ const About = ({ hasAnimated }) => {
                                 <Mail
                                     className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors"
                                 />
-
                             </div>
+                        </div>
+
+                        <div className="grid grid-cols-2 gap-6">
+                            {features.map((feature, index) => (
+                                <div key={index}
+                                    className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                                    {feature.icon}
+                                    <h3 className="font-semibold mb-2">{feature.title}</h3>
+                                    <p className="text-gray-600 text-sm">{feature.description}</p>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
