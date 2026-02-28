@@ -28,7 +28,7 @@ const About = ({ hasAnimated }) => {
     return (
         <section id="about" className={`py-16 px-6 bg-gray-50`}>
             <div className="max-w-6xl mx-auto">
-                <div className={`transition-all duration-1000 delay-200 ${hasAnimated.about ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+                <div className={`transition-all duration-1000 delay-200 ${hasAnimated.about ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-105842'}`}>
 
                 </div>
             </div>
