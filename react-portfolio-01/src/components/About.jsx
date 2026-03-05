@@ -57,7 +57,7 @@ const About = ({ hasAnimated }) => {
                                 <div key={index}
                                     className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                                     {feature.icon}
-                                    <h3 className="font-semibold mb-2">{feature.title}</h3>
+                                    <h3 className="font-semibold mb-21.03.44">{feature.title}</h3>
                                     <p className="text-gray-600 text-sm">{feature.description}</p>
                                 </div>
                             ))}
