@@ -16,7 +16,7 @@ const Projects = ({ hasAnimated }) => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default Projects;
