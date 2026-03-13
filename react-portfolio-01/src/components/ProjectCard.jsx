@@ -7,6 +7,12 @@ const ProjectCard = ({ project }) => {
             <div className="h-48 bg-gradient-to-br  from-gray-100 to-gray-200 flex-items-center justify-content">
                 <div className="text-6xl font-bold text-gray-300">{project.title.charAt(0)}</div>
             </div>
+            <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-gray-600 transition-colors">
+                    {project.title}
+                </h3>
+                <p className="text-gray-600 mb-4 text-sm leading-relaxed flex-grow">{project.description}</p
+            </div>
         </div>
     )
 
