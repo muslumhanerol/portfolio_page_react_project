@@ -14,7 +14,13 @@ const ProjectCard = ({ project }) => {
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed flex-grow">
                     {project.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4"></div>
+                <div className="flex flex-wrap gap-2 mb-4">
+                    {project.tech.map((tech, techindex) => (
+                        <span key={techindex} className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">
+
+                        </span>
+                    ))}
+                </div>
             </div>
         </div>
     )
