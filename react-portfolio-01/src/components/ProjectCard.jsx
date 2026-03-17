@@ -29,7 +29,7 @@ const ProjectCard = ({ project }) => {
                     </a>
                     <a href={project.demo} className="flex items-center text-gray-600 hover:text-black transition-colors text-sm">
                         <ExternalLink className="w-4 h-4 mr-1" size={16} />
-                        Code
+                        Demo
                     </a>
                 </div>
             </div>
