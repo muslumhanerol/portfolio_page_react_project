@@ -23,7 +23,10 @@ const ProjectCard = ({ project }) => {
                     ))}
                 </div>
                 <div className="flex space-x-4 mt-auto">
-                    <a href={project.github} className="flex items-center text-gray-600 "></a>
+                    <a href={project.github} className="flex items-center text-gray-600 hover:text-black transition-colors text-sm">
+                        <Github className="w-4 h-4 mr-1" size={16} />
+                        Code
+                    </a>
                 </div>
             </div>
         </div>
