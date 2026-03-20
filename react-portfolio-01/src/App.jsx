@@ -5,6 +5,7 @@ import { useScrollToTop } from "./hooks/useScrollToTop";
 import Hero from "./components/Hero";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
+import Skills from "./components/Skills.jsx";
 
 const App = () => {
   const hasAnimated = useIntersectionObserver();
@@ -16,6 +17,7 @@ const App = () => {
       <Hero hasAnimated={hasAnimated} />
       <About hasAnimated={hasAnimated} />
       <Projects hasAnimated={hasAnimated} />
+      <Skills hasAnimated={hasAnimated} />
     </div>
   );
 };
