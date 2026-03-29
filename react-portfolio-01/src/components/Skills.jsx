@@ -7,7 +7,7 @@ const Skills = ({ hasAnimated }) => {
             <div className="max-w-6xl mx-auto">
                 <div className={`transition-all duration-1000 delay-400 ${hasAnimated.Skills ? 'opacity-100 translate-y-o' : 'opacity-0 translate-y-10'}`}>
                     <h2 className="text-4xl font-bold mb-12 text-center">
-                        
+                        Skills & Technologies 
                     </h2>
                 </div>
             </div>
