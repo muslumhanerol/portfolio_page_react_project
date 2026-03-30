@@ -11,7 +11,9 @@ const Skills = ({ hasAnimated }) => {
                     </h2>
                     <div className="grid md:grid-cols-3 gap-8">
                         {skills.map((skillGroup,index)=>
-                        
+                            <div key={index} className="bg-white p-8 rounded-lg border border-gray-200">
+                                <h3></h3>
+                            </div>
                         )}
                     </div>
                 </div>
@@ -20,5 +22,5 @@ const Skills = ({ hasAnimated }) => {
     )
 
 }
-
+ 
 export default Skills;
