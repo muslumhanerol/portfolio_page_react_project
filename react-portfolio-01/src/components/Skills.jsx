@@ -18,6 +18,10 @@ const Skills = ({ hasAnimated }) => {
                                 </h3>
                                 <div className="space-y-3">
                                     {skillGroup.items.map((skills, skillIndex)=> (
+                                        <div key={skillIndex} className="flex items-center">
+                                            <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                                            <span className="text-gray-700">{skills}</span>
+                                        </div>
 
                                     ))}
                                 </div>
@@ -28,8 +32,7 @@ const Skills = ({ hasAnimated }) => {
                 </div> 
             </div>
         </section>
-    )
-
-}
+    );
+};
  
 export default Skills;
