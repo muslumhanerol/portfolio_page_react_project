@@ -9,12 +9,13 @@ const Skills = ({ hasAnimated }) => {
                     <h2 className="text-4xl font-bold mb-12 text-center">
                         Skills & Technologies 
                     </h2>
+                    
                     <div className="grid md:grid-cols-3 gap-8">
                         {skills.map((skillGroup,index)=>
                             <div key={index} className="bg-white p-8 rounded-lg border border-gray-200">
                                 <h3 className="text-xl font-semibold mb-6 text-center">
                                     {skillGroup.category}
-                                </h3>
+                                </h3>                                
                             </div>
                         )}
                     </div>
