@@ -16,6 +16,11 @@ const Skills = ({ hasAnimated }) => {
                                 <h3 className="text-xl font-semibold mb-6 text-center">
                                     {skillGroup.category}
                                 </h3>
+                                <div className="space-y-3">
+                                    {skillGroup.items.map((skills, skillIndex)=> (
+
+                                    ))}
+                                </div>
                             </div>
                         ))}                      
                         
