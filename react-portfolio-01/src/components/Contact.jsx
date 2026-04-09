@@ -14,6 +14,7 @@ const Contact = ({ hasAnimated }) => {
             <div className="max-w-4xl mx-auto text-center">
                 <div className={`transition-all duration-1000 delay-500 ${hasAnimated.contact ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                     <h2 className="text-4xl font-bold mb-8">Let's Work Together</h2>
+                    <p className="text-xl text-gray-600 mb-12 max-w-2xl"></p>
                 </div>
             </div>
         </section>
