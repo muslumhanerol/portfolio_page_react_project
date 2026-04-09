@@ -17,7 +17,17 @@ const Contact = ({ hasAnimated }) => {
                     <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
                         I'm always interested in new opportunities and exciting projects. Fell free reach out if you'd like to collaborate or just say hello!
                     </p>
-                    <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8"></div>
+                    <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-8">
+                        <a href={contactLinksWithIcons[0].href} className={`flex items-center justify-center w-full sm:w-auto ${contactLinksWithIcons[0].className}`}>
+                            {contactLinksWithIcons[0].icon}
+                            {contactLinksWithIcons[0].label}
+                        </a>
+                        <div className="flex gap-4 sm:gap-8">
+                            <a href={contactLinksWithIcons[1].href} className={`flex item-center justify-center flex-l sm:flex-none ${contactLinksWithIcons[1].className}`}>
+                                {contactLinksWithIcons[1].icon}
+                            </a>
+                        </div>
+                    </div>
                 </div> 
             </div>
         </section>
