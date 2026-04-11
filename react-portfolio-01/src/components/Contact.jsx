@@ -36,8 +36,8 @@ const Contact = ({ hasAnimated }) => {
                 </div> 
             </div>
         </section>
-    )
+    );
 
-}
+};
 
 export default Contact;
