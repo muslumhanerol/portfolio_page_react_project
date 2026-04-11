@@ -25,6 +25,11 @@ const Contact = ({ hasAnimated }) => {
                         <div className="flex gap-4 sm:gap-8">
                             <a href={contactLinksWithIcons[1].href} className={`flex item-center justify-center flex-l sm:flex-none ${contactLinksWithIcons[1].className}`}>
                                 {contactLinksWithIcons[1].icon}
+                                {contactLinksWithIcons[1].label}
+                            </a>
+                            <a href={contactLinksWithIcons[2].href} className={`flex item-center justify-center flex-l sm:flex-none ${contactLinksWithIcons[2].className}`}>
+                                {contactLinksWithIcons[2].icon}
+                                {contactLinksWithIcons[2].label}
                             </a>
                         </div>
                     </div>
