@@ -8,6 +8,7 @@ import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const App = () => {
   const hasAnimated = useIntersectionObserver();
@@ -21,7 +22,8 @@ const App = () => {
       <Projects hasAnimated={hasAnimated} />
       <Skills hasAnimated={hasAnimated} />
       <Contact hasAnimated={hasAnimated} />
-      <Footer hasAnimated={hasAnimated} />
+      <Footer />
+      <ScrollToTop showScrollTop={showScrollTop}/>
     </div>
   );
 };
