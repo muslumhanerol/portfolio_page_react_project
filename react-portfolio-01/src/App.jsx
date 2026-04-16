@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./components/Navigation";
 import { useIntersectionObserver } from "./hooks/uselntersectionObserver.js";
-import { useScrollToTop } from "./hooks/useScrollToTop";
+import { useScrollToTop } from "./hooks/useScrollToTop.js";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";

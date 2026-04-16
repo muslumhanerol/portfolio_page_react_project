@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { Camera, AArrowDown, Mail } from 'lucide-react';
 import { heroData } from '../data/hero';
 
 

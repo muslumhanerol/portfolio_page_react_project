@@ -1,5 +1,6 @@
 import React from "react";
-import { Github, Linkedin, Mail, Code, Paletto, Smartphone, ExternalLink } from "lucide-react";
+import { Camera } from "lucide-react";
+
 
 const About = ({ hasAnimated }) => {
     const features = [
@@ -40,13 +41,13 @@ const About = ({ hasAnimated }) => {
                             </p>
 
                             <div className="flex space-x-4">
-                                <Github
+                                <Camera
                                     className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors"
                                 />
-                                <Linkedin
+                                <Camera
                                     className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors"
                                 />
-                                <Mail
+                                <Camera
                                     className="w-6 h-6 text-gray-600 hover:text-black cursor-pointer transition-colors"
                                 />
                             </div>
@@ -66,7 +67,7 @@ const About = ({ hasAnimated }) => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
 export default About;

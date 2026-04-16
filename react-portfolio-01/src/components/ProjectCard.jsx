@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, ExternalLink } from "lucide-react";
+import { Camera, ExternalLink} from "lucide-react";
 
 const ProjectCard = ({ project }) => {
     return (
@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
                 </div>
                 <div className="flex space-x-4 mt-auto">
                     <a href={project.github} className="flex items-center text-gray-600 hover:text-black transition-colors text-sm">
-                        <Github className="w-4 h-4 mr-1" size={16} />
+                        <Camera className="w-4 h-4 mr-1" size={16} />
                         Code
                     </a>
                     <a href={project.demo} className="flex items-center text-gray-600 hover:text-black transition-colors text-sm">
@@ -34,8 +34,8 @@ const ProjectCard = ({ project }) => {
                 </div>
             </div>
         </div>
-    )
+    );
 
-}
+};
 
 export default ProjectCard;
